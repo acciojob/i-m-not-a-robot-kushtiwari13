@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+#verify, #reset {
+  display: none;
+}
+
+#para {
+  margin-top: 10px;
+  text-align: center;
+}
